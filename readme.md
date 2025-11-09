@@ -23,12 +23,6 @@ python -m pip install --upgrade pip
 4) Instalar dependencias
 
 ```bash
-pip install -r requirements.txt
-```
-
-Si no 
-
-```bash
 pip install pandas numpy scikit-learn openpyxl jupyter
 ```
 
@@ -38,6 +32,13 @@ pip install pandas numpy scikit-learn openpyxl jupyter
 jupyter notebook script_parte1.ipynb
 ```
 aqui colocar "run all cells"
+
+- en caso de que no funcione, correr de manera local con 
+
+```bash
+python3 script_parte1.py
+```
+
 
 6) Desactivar el entorno cuando termines
 
